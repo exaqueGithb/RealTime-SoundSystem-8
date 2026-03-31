@@ -41,13 +41,13 @@ Luna RTSS 8.0 기술이 적용된 실시간 노래방 가사 동기화 시스템
 
 ## 7.0 대비 8.0 주요 변경 사항
 
-| 구분 | Luna RTSS 7.0 | Luna RTSS 8.0 |
+| 구분 | Luna RTSS 7 | Luna RTSS 8 |
 | :--- | :--- | :--- |
 | **주요 구조** | 로컬 시스템 단일 처리 | 하이브리드 클라우드 스트리밍 대응 |
 | **동기화 로직** | 고정 버퍼 상태 추적 | 적응형 가변 버퍼 및 지터 보정 |
 | **정밀도** | ms 단위 안정화 | 마이크로초 단위 데이터 흐름 분석 |
 | **네트워크 대응** | 기본적인 지연 처리 | 패킷 손실 및 지연 변동에 대한 동적 복구 |
-| **구현 사례** | PCMPlayer 7.0 | PCMPlayer Cloud 8 / TuneDesk 7 |
+| **구현 사례** | PCMPlayer 7 Cloud / TuneDesk 6 | PCMPlayer Cloud 8 / TuneDesk 7 |
 
 ---
 
